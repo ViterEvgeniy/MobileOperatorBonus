@@ -8,7 +8,7 @@ public class Main {
         if (amountTotal1 >= 1000) {
             percent = 1;
         } else {
-                percent = 0;
+            percent = 0;
             }
             int bonus = amountTotal1 * percent / 100;
             int amountTotal2 = (amountTotal1 + bonus);
