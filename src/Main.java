@@ -10,7 +10,7 @@ public class Main {
         } else {
             percent = 0;
             }
-            int bonus = amountTotal1 * percent / 100;
+            int bonus = (amountTotal1 * percent) / 100;
             int amountTotal2 = (amountTotal1 + bonus);
 
             System.out.println("Счет: " + amountTotal1);
