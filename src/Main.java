@@ -9,13 +9,13 @@ public class Main {
             percent = 1;
         } else {
             percent = 0;
-            }
-            int bonus = (amountTotal1 * percent) / 100;
-            int amountTotal2 = (amountTotal1 + bonus);
+        }
+        int bonus = (amountTotal1 * percent) / 100;
+        int amountTotal2 = (amountTotal1 + bonus);
 
-            System.out.println("Счет: " + amountTotal1);
-            System.out.println("Бонусы: " + bonus);
-            System.out.println("Итоговый счет: " + amountTotal2);
+        System.out.println("Счет: " + amountTotal1);
+        System.out.println("Бонусы: " + bonus);
+        System.out.println("Итоговый счет: " + amountTotal2);
 
 
     }
